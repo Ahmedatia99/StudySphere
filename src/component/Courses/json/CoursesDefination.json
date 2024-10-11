@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "url1": "./images/Courses/couses-1.svg",
+        "url2": "./images/Courses/couses-2.svg",
+        "url3": "./images/Courses/couses-3.svg",
+        "level": "Beginner",
+        "subj": "4 weeks",
+        "user": "By john smith",
+        "col1": "Introduction to HTML",
+        "col2": "Styling with CSS",
+        "col3": "Introduction to Responsive Design",
+        "col4": "Design Principles for Web",
+        "col5": "Building a Basic Website"
+    },
+    {
+        "id": 2,
+        "url1": "./images/Courses/couses-1.svg",
+        "url2": "./images/Courses/couses-2.svg",
+        "url3": "./images/Courses/couses-3.svg",
+        "level": "Beginner",
+        "subj": "4 weeks",
+        "user": "By john smith",
+        "col1": "Introduction to UI/UX Design",
+        "col2": "User Research and Personas",
+        "col3": "Wireframing and Prototyping",
+        "col4": "Visual Design and Branding",
+        "col5": "Usability Testing and Iteration"
+    },
+    {
+        "id": 3,
+        "url1": "./images/Courses/couses-1.svg",
+        "url2": "./images/Courses/couses-2.svg",
+        "url3": "./images/Courses/couses-3.svg",
+        "level": "Beginner",
+        "subj": "4 weeks",
+        "user": "By john smith",
+        "col1": "Introduction to Mobile App Development",
+        "col2": "Fundamentals of Swift Programming (iOS)",
+        "col3": "Fundamentals of Kotlin Programming (Android)",
+        "col4": "Building User Interfaces",
+        "col5": "App Deployment and Testing"
+    },
+    {
+        "id": 4,
+        "url1": "./images/Courses/couses-1.svg",
+        "url2": "./images/Courses/couses-2.svg",
+        "url3": "./images/Courses/couses-3.svg",
+        "level": "Beginner",
+        "subj": "4 weeks",
+        "user": "By john smith",
+        "col1": "Introduction to Graphic Design",
+        "col2": "Typography and Color Theory",
+        "col3": "Layout Design and Composition",
+        "col4": "Image Editing and Manipulation",
+        "col5": "Designing for Print and Digital Media"
+    }
+]
