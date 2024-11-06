@@ -2,7 +2,7 @@ import Reusable from "../Home/Reusable";
 import DefineCompo from "../atoms/DefineCompo";
 export default function Benfits() {
   return (
-    <main className="container mx-auto px-4 rounded-xl">
+    <main className="tablet:container mx-auto px-4 rounded-xl pt-12">
       <section className="">
         <DefineCompo
           title={"Benefits"}
