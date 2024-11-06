@@ -3,7 +3,7 @@ import PricingCard from "../atoms/PricingCard";
 export default function Pricing() {
   return (
     <main className="container mx-auto">
-      <section className="container mx-auto px-4 mb-20 rounded-xl">
+      <section className=" px-4 mb-20 rounded-xl">
         <DefineCompo
           title={"Our Pricing"}
           value={true}
@@ -12,7 +12,7 @@ export default function Pricing() {
           }
         />
       </section>
-      <section className="bg-white p-12 grid grid-cols-2 gap-8 rounded-xl">
+      <section className="bg-white laptop:p-12 mobile:p-5 grid tablet:grid-cols-2 mobile: grid-cols-1 laptop:gap-8 mobile:gap-4 rounded-xl">
         <PricingCard plan="Free Plan" price="0$" />
         <PricingCard plan="Pro Plan" price="79$" />
       </section>
