@@ -8,7 +8,7 @@ import Contact from "./pages/Contact.jsx";
 import Pricing from "./pages/Pricing.jsx";
 import About from "./pages/About.jsx";
 import Topbanner from "./component/atoms/Topbanner.jsx";
-// import Navbar from "./component/Home/Navbar";
+import Navbar from "./component/Home/Navbar";
 import DefaultLayout from "./layout/DefultLayout";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
     <main>
       <Router>
         <Topbanner />
-        {/* <Navbar /> */}
+        <Navbar />
         <Routes>
           <Route path="/" element={<DefaultLayout />}>
             <Route path="/" element={<Home />} />
