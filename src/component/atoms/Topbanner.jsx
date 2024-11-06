@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function Topbannekr() {
   return (
-    <main className="container mx-auto">
-      <div className="flex justify-center items-center bg-morning mt-5 py-4 text-white rounded-lg ">
-        <h2 className="text-base lg:text-base sm:text-sm">
+    <main className="">
+      <div className="flex justify-center items-center bg-morning mt-5 py-4 text-white ">
+        <h2 className="text-base tablet:text-base mobile:text-xs">
           {" "}
           Free Courses 🌟 Sale Ends Soon, Get It Now{" "}
         </h2>
