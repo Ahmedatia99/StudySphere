@@ -3,7 +3,7 @@ import ContactDetails from "../component/Contact/ContactDetails";
 export default function Contact() {
   return (
     <>
-      <main className="px-14">
+      <main className=" ">
         <ContactDetails />
       </main>
       <Footer />

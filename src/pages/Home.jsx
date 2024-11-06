@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="px-14">
+      <main className=" ">
         <Sponser />
         <Benfits />
         <Courses />

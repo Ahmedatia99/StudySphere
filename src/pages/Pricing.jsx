@@ -3,7 +3,7 @@ import Footer from "../component/Home/Footer";
 export default function Pricing() {
   return (
     <>
-      <main className="px-14">
+      <main className=" ">
         <PricingDetails />
       </main>
       <Footer />

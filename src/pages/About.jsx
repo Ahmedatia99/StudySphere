@@ -4,7 +4,7 @@ import AboutDetails from "../component/About/AboutDetails";
 export default function About() {
   return (
     <>
-      <main className="px-14">
+      <main className=" ">
         <AboutDetails />
       </main>
       <Footer />

@@ -8,7 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer className=" text-center  mt-20 bg-white">
-      <main className="container mx-auto px-14">
+      <main className="container mx-auto  ">
         <section className="mx-6 py-10 text-center md:text-left">
           <div className=" grid gap-8 md:grid-cols-2 lg:grid-cols-2">
             {/* first column */}
