@@ -1,18 +1,20 @@
 import { HTMLAttributes } from "react";
 import classNames from "classnames";
+import { Link } from "react-router-dom";
 import "./colored.css";
 
 interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "second";
-  action: string;
+  variant?: "primary" | "secondary";
+  action?: React.ReactNode; // Supports either a string or a React component
   displays?: "true" | "false";
   paddingname?: string;
+  path: string;
 }
-
 export const Button = ({
   action,
   variant = "primary",
   paddingname,
+  path,
 }: ButtonProps) => {
   const variants = {
     primary: " colored text-white",
@@ -28,7 +30,9 @@ export const Button = ({
         paddingname
       )}
     >
-      {action}
+      <Link className="!p-0" to={path}>
+        {action}{" "}
+      </Link>
     </button>
   );
 };

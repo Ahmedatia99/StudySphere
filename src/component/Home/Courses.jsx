@@ -2,7 +2,7 @@ import DefineCompo from "../atoms/DefineCompo";
 import CardCourses from "../atoms/CardCourses";
 export default function Courses() {
   return (
-    <main className="container mx-auto px-4 rounded-xl">
+    <main className="tablet:container mx-auto px-5 rounded-xl">
       <section className="">
         <DefineCompo
           title="Our Courses"
@@ -10,7 +10,7 @@ export default function Courses() {
           description="Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in."
         />
       </section>
-      <div className=" grid grid-cols-2 gap-5 laptop:my-14  mobile:my-10">
+      <div className=" grid tablet:grid-cols-2 tablet:gap-5 mobile:grid-cols-1 mobile:gap-3 laptop:my-14  mobile:my-10">
         <CardCourses
           subj="4 Week"
           level="Beginner"

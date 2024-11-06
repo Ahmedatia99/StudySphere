@@ -32,6 +32,7 @@ export default function DefineCompo(props) {
           variant="second"
           action="View All"
           paddingname="mobile:py-3 mobile:px-10 mr-0 my-0 mobile:my-5"
+          path={"courses"}
         />
       )}
     </div>
