@@ -23,7 +23,7 @@ export default function Navbar() {
               <img
                 src={"/images/Logo.svg"}
                 alt="studysphere"
-                className=" laptop:w-28 tablet:w-20 h-16 mobile:w-10 mobile:h-10 :"
+                className=" md:w-full mobile:w-10 :"
               />
             </Link>
             <div className="flex justify-center items-center">
@@ -31,12 +31,12 @@ export default function Navbar() {
                 <Button
                   variant="second"
                   action="Sign Up"
-                  paddingname="px-3 py-2 text-xs"
+                  paddingname="px-3 py-2 "
                 />
                 <Button
                   variant="primary"
                   action="Login"
-                  paddingname="px-3 py-2 text-xs !mr-0"
+                  paddingname="px-3 py-2 !text-xs font-light !mr-0"
                 />
               </div>
               <div className="md:hidden tablet:order-2 ">

@@ -6,8 +6,8 @@ import { SiLighthouse } from "react-icons/si";
 export default function AboutCards() {
   return (
     <main>
-      <section className="grid grid-cols-2 gap-5 mt-14 ">
-        <div className="bg-white flex flex-col justify-between items-start p-20 rounded-xl">
+      <section className="grid md:grid-cols-2 gap-5 mt-14 ">
+        <div className="bg-white flex flex-col justify-between items-start md:p-20 mobile:p-5  rounded-xl">
           <PiBackpackFill
             className="p-3 bg-liteorange rounded-md text-morning mb-6 border border-stroke"
             size="50px"
@@ -21,7 +21,7 @@ export default function AboutCards() {
             with the knowledge and tools needed to excel in their chosen field.
           </p>
         </div>
-        <div className="bg-white flex flex-col justify-between items-start p-20 rounded-xl">
+        <div className="bg-white flex flex-col justify-between items-start md:p-20 mobile:p-5  rounded-xl">
           <FaBook
             className="p-3 bg-liteorange rounded-md text-morning mb-6 border border-stroke"
             size="50px"
@@ -35,7 +35,7 @@ export default function AboutCards() {
             confidence and innovation.
           </p>
         </div>
-        <div className="bg-white flex flex-col justify-between items-start p-20 rounded-xl">
+        <div className="bg-white flex flex-col justify-between items-start md:p-20 mobile:p-5  rounded-xl">
           <BsPuzzleFill
             className="p-3 bg-liteorange rounded-md text-morning mb-6 border border-stroke"
             size="50px"
@@ -49,7 +49,7 @@ export default function AboutCards() {
             can connect, share insights, and grow together.
           </p>
         </div>
-        <div className="bg-white flex flex-col justify-between items-start p-20 rounded-xl">
+        <div className="bg-white flex flex-col justify-between items-start md:p-20 mobile:p-5  rounded-xl">
           <SiLighthouse
             className="p-3 bg-liteorange rounded-md text-morning mb-6 border border-stroke"
             size="50px"

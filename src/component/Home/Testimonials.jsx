@@ -3,7 +3,7 @@ import StoryCard from "../atoms/StoryCard";
 export default function Testimonials() {
   return (
     <main className="tablet:container mx-auto px-5 rounded-xl">
-      <section className="mb-20">
+      <section className="md:mb-20">
         <DefineCompo
           title={"Our Testimonials"}
           value={true}

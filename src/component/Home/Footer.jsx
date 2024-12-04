@@ -8,11 +8,11 @@ import { FaLocationDot } from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer className=" text-center  mt-20 bg-white">
-      <main className="container mx-auto  ">
+      <main className="md:container mobile:px-4 mx-auto ">
         <section className="mx-6 py-10 text-center md:text-left">
           <div className=" grid gap-8 md:grid-cols-2 lg:grid-cols-2">
             {/* first column */}
-            <div>
+            <div className="mobile:flex flex-col mobile:items-center w-full">
               <h6 className="mb-4 flex items-center text-textcook font-spaceMono justify-center capitalize md:justify-start">
                 <img className="mr-3" src="./images/Logo.svg" />
                 Study Sphere
@@ -31,7 +31,7 @@ export default function Footer() {
               </div>
             </div>
             {/* second column */}
-            <div className="grid grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 mobile:grid-cols-2 gap-8">
               <div className="">
                 <h6 className="text-xl font-semibold mb-4 capitalize font-spaceMono md:justify-start">
                   Home
@@ -41,14 +41,12 @@ export default function Footer() {
                     Benefits
                   </a>
                   <a href="#!" className="p-0 pb-2 ">
-                    Our Courses
+                    Courses
                   </a>
                   <a href="#!" className="p-0 pb-2">
-                    Our Testimonials{" "}
+                    Testimonials{" "}
                   </a>
-                  <a href="#!" className="text-caption p-0 pb-2">
-                    Our Testimonials{" "}
-                  </a>
+
                   <a href="#!" className="text-caption p-0 pb-2">
                     Our FAQ
                   </a>
@@ -71,39 +69,36 @@ export default function Footer() {
                   </li>
                   <li className="p-0 pb-2 ">
                     <a className="p-0" href="!#">
-                      Our Goals
+                      Goals
                     </a>
                   </li>
                 </ul>
               </div>
-              <div>
-                <h6 className=" text-center text-xl font-semibold mb-4 capitalize font-spaceMono md:justify-start">
-                  Social Profile
-                </h6>
-                <div className="flex justify-center">
-                  <a
-                    href="https://twitter.com/ahmedatiaa99"
-                    className="mr-6 text-caption p-3 bg-litewhite"
-                    target="blank"
-                  >
-                    <FaXTwitter />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/ahmedatiaa99/"
-                    className="mr-6 text-caption p-3 bg-litewhite"
-                    target="blank"
-                  >
-                    <FaInstagram />
-                  </a>
-                  <a
-                    href="https://discord.com/channels/@me"
-                    className="text-caption p-3 bg-litewhite"
-                    target="blank"
-                  >
-                    <FaDiscord />
-                  </a>
-                </div>
-              </div>
+            </div>
+          </div>
+          <div className="mt-5">
+            <div className="flex justify-center">
+              <a
+                href="https://twitter.com/ahmedatiaa99"
+                className="mr-6 text-caption p-3 bg-litewhite"
+                target="blank"
+              >
+                <FaXTwitter />
+              </a>
+              <a
+                href="https://www.instagram.com/ahmedatiaa99/"
+                className="mr-6 text-caption p-3 bg-litewhite"
+                target="blank"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://discord.com/channels/@me"
+                className="text-caption p-3 bg-litewhite"
+                target="blank"
+              >
+                <FaDiscord />
+              </a>
             </div>
           </div>
         </section>

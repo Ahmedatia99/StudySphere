@@ -14,7 +14,6 @@
   .colored {
     background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
     text-align: center;
-    text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
     box-shadow: 0 0 20px #eee;
@@ -26,4 +25,3 @@
     color: #fff;
     text-decoration: none;
   }
- 

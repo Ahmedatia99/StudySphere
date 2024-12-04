@@ -2,8 +2,8 @@ import DefineCompo from "../atoms/DefineCompo";
 import PricingCard from "../atoms/PricingCard";
 export default function Pricing() {
   return (
-    <main className="container mx-auto">
-      <section className=" px-4 mb-20 rounded-xl">
+    <main className="md:container mx-auto">
+      <section className=" flex-center px-4 md:mb-20 rounded-xl">
         <DefineCompo
           title={"Our Pricing"}
           value={true}

@@ -8,16 +8,16 @@ function Questions() {
   }
 
   return (
-    <main className=" container mx-auto p-20 bg-white mt-24 text-textcook rounded-xl">
-      <div className="flex justify-between items-center">
-        <section className=" flex flex-col justify-center items-baseline">
-          <div className="flex justify-center items-center w-full">
+    <main className=" md:container mx-auto md:p-10 mobile:p-5 bg-white mt-24 text-textcook rounded-xl">
+      <div className="flex md:flex-row mobile:flex-col justify-between items-start">
+        <section className=" flex flex-col justify-center items-baseline mobile:mb-3">
+          <div className="justify-center items-center w-full md:flex mobile:hidden">
             <img src="./images/QAf.svg" alt="ask me" />
           </div>
           <h2 className="text-4xl font-semibold my-5">
             Frequently Asked Questions
           </h2>
-          <span className="text-base mb-5">
+          <span className="text-base mb-5 text-spantext">
             Still you have any questions? Contact our Team via
             <br />
             support@skillbridge.com

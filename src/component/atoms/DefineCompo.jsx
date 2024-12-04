@@ -4,7 +4,7 @@ import PropTypes from "prop-types"; // Import PropTypes
 
 export default function DefineCompo(props) {
   return (
-    <div className="flex justify-between flex-wrap items-center">
+    <div className="md:px-4 flex justify-between flex-wrap items-center">
       <div>
         <h2
           className={classNames(

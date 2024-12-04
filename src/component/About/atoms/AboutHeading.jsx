@@ -11,8 +11,8 @@ export default function AboutHeading() {
         head="Achievements"
         info="Our commitment to excellence has led us to achieve significant milestones along our journey. Here are some of our notable achievements"
       />
-      <section className="grid grid-cols-2 gap-5 mt-14 mb-24">
-        <div className="bg-white flex flex-col justify-between items-start p-20 rounded-xl">
+      <section className="grid md:grid-cols-2 gap-5 mt-14 mb-24">
+        <div className="bg-white flex flex-col justify-between items-start md:p-20 mobile:p-5 rounded-xl">
           <FaCrown
             className="p-3 bg-liteorange rounded-md text-morning mb-6 border border-stroke"
             size="50px"
@@ -25,7 +25,7 @@ export default function AboutHeading() {
             unlock their potential and achieve their career goals.
           </p>
         </div>
-        <div className="bg-white flex flex-col justify-between items-start p-20 rounded-xl">
+        <div className="bg-white flex flex-col justify-between items-start md:p-20 mobile:p-5  rounded-xl">
           <FaMedal
             className="p-3 bg-liteorange rounded-md text-morning mb-6 border border-stroke"
             size="50px"
@@ -39,7 +39,7 @@ export default function AboutHeading() {
             methodologies.
           </p>
         </div>
-        <div className="bg-white flex flex-col justify-between items-start p-20 rounded-xl">
+        <div className="bg-white flex flex-col justify-between items-start md:p-20 mobile:p-5  rounded-xl">
           <FaMasksTheater
             className="p-3 bg-liteorange rounded-md text-morning mb-6 border border-stroke"
             size="50px"
@@ -53,7 +53,7 @@ export default function AboutHeading() {
             materials.
           </p>
         </div>
-        <div className="bg-white flex flex-col justify-between items-start p-20 rounded-xl">
+        <div className="bg-white flex flex-col justify-between items-start md:p-20 mobile:p-5  rounded-xl">
           <GiBoltShield
             className="p-3 bg-liteorange rounded-md text-morning mb-6 border border-stroke"
             size="50px"

@@ -18,14 +18,14 @@ export const Button = ({
 }: ButtonProps) => {
   const variants = {
     primary: " colored text-white",
-    second: "bg-white  text-black ",
-    greedy: "bg-litewhite text-textcook",
+    second: "bg-lighting text-textcook ",
+    greedy: "bg-lighting text-textcook",
   }[variant];
 
   return (
     <button
       className={classNames(
-        `flex items-center justify-center rounded-lg transition-all text-sm mr-3`,
+        `flex items-center justify-center rounded-lg transition-all text-sm font-medium mr-3`,
         variants,
         paddingname
       )}

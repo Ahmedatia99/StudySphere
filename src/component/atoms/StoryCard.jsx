@@ -2,7 +2,7 @@ import { Button } from "./Button/Button.tsx";
 import data from "../../data/testimonials.json";
 export default function StoryCard() {
   return (
-    <main className="grid tablet:grid-cols-2 gap-8 laptop:my-14  mobile:my-10 px-4">
+    <main className="grid tablet:grid-cols-2 gap-8 laptop:my-14  mobile:my-10 md:px-4">
       {data.map((card) => {
         return (
           <section key={card.id} className="text-spantext rounded-xl bg-white">

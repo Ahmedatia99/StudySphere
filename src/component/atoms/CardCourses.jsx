@@ -3,7 +3,7 @@ import { Button } from "./Button/Button.tsx";
 export default function CardCourses(probs) {
   return (
     <main>
-      <section className="bg-white laptop:p-10 mobile:p-5 text-textcook rounded-xl">
+      <section className="bg-white laptop:p-10 mobile:p-5 text-textcook rounded-xl h-full">
         <div>
           <img src={probs.url} className="w-full" />
         </div>
